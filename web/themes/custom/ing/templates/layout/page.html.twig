@@ -1,0 +1,51 @@
+{# 
+ # My custom page template
+ #}
+<div class="layout-container">
+  
+  {% if page.header %}
+  <header role="banner">
+    {{ page.header }}
+  </header>
+  {% endif %}
+  
+  {% if page.primary_menu %}
+  <nav class="main-nav">
+    {{ page.primary_menu }}
+  </nav>
+  {% endif %}
+  
+  {% if page.highlighted %}
+  <div class="highlighted">
+    {{ page.highlighted }}
+  </div>
+  {% endif %}
+  
+  {% if page.breadcrumb %}
+    {{ page.breadcrumb }}
+  {% endif %}
+  
+  <main role="main">
+    <a id="main-content" tabindex="-1"></a>
+    {{ page.content }}
+  </main>
+  
+  {% if page.sidebar_first %}
+  <aside class="sidebar-first">
+    {{ page.sidebar_first }}
+  </aside>
+  {% endif %}
+  
+  {% if page.sidebar_second %}
+  <aside class="sidebar-second">
+    {{ page.sidebar_second }}
+  </aside>
+  {% endif %}
+  
+  {% if page.footer %}
+  <footer role="contentinfo">
+    {{ page.footer }}
+  </footer>
+  {% endif %}
+  
+</div>
