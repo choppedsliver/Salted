@@ -1,0 +1,22 @@
+// Color variables
+$primary-color: #ff6200; // ING orange
+$secondary-color: #333;
+$text-color: #333;
+$light-gray: #f5f5f5;
+$white: #fff;
+
+// Typography
+$font-primary: 'Arial', sans-serif;
+$font-size-base: 16px;
+
+// Breakpoints
+$breakpoint-small: 576px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 992px;
+$breakpoint-xlarge: 1200px;
+
+// Spacing
+$spacing-unit: 8px;
+$spacing-small: $spacing-unit;
+$spacing-medium: $spacing-unit * 2;
+$spacing-large: $spacing-unit * 3;

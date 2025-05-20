@@ -1,0 +1,23 @@
+// Responsive breakpoint mixin
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == small {
+    @media (min-width: $breakpoint-small) { @content; }
+  }
+  @else if $breakpoint == medium {
+    @media (min-width: $breakpoint-medium) { @content; }
+  }
+  @else if $breakpoint == large {
+    @media (min-width: $breakpoint-large) { @content; }
+  }
+  @else if $breakpoint == xlarge {
+    @media (min-width: $breakpoint-xlarge) { @content; }
+  }
+}
+
+// Flexbox mixin
+@mixin flex($direction: row, $justify: flex-start, $align: stretch) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}

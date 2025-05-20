@@ -1,0 +1,24 @@
+// Make sure the charset is set appropriately
+@charset 'UTF-8';
+
+// Abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+// Base styles
+// @import 'base/reset';
+// @import 'base/typography';
+
+// Layout
+// @import 'layout/header';
+// @import 'layout/footer';
+// @import 'layout/sidebar';
+// @import 'layout/grid';
+
+// Components
+// @import 'components/buttons';
+// @import 'components/forms';
+// @import 'components/navigation';
+
+// Pages
+// @import 'pages/home';
