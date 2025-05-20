@@ -1,0 +1,27 @@
+.main-nav {
+
+  .primary-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .primary-nav__menu--level-1 {
+
+      .primary-nav__menu-item--level-1 {
+        max-width: unset;
+
+        a {
+
+          .primary-nav__menu-link-inner {
+
+            &:after {
+              border-top-width: unset;
+              border-top: solid 1px $secondary-color;
+              top: 70%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
