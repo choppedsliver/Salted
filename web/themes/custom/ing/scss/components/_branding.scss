@@ -1,6 +1,8 @@
+@use '../abstracts/variables';
+
 .site-branding {
   background-image: none;
-  background-color: $white;
+  background-color: variables.$white;
   display: flex;
   align-items: center;
   justify-content: center;

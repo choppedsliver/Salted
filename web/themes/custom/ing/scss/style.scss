@@ -2,20 +2,20 @@
 @charset 'UTF-8';
 
 // Abstracts
-@import 'abstracts/variables';
-@import 'abstracts/mixins';
+@use 'abstracts/variables' as *;
+@use 'abstracts/mixins' as *;
 
 // Base styles
-// @import 'base/reset';
-// @import 'base/typography';
+// @use 'base/reset';
+// @use 'base/typography';
 
 // Layout
-@import 'layout/header';
-@import 'layout/body';
+@use 'layout/header' as *;
+@use 'layout/body' as *;
 
 // Components
-@import 'components/navigation';
-@import 'components/branding';
+@use 'components/navigation' as *;
+@use 'components/branding' as *;
 
 // Pages
-// @import 'pages/home';
+// @use 'pages/home';

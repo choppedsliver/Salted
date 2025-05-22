@@ -1,8 +1,13 @@
+@use '../abstracts/variables';
+
 body {
   background-image: none;
-  background-color: $secondary-color;
+  background-color: variables.$secondary-color;
 }
 
+main {
+  color: variables.$white;
+}
 // header {
 //   background-color: $white;
 // }

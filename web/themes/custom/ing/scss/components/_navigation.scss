@@ -1,5 +1,7 @@
+@use '../abstracts/variables';
+
 .main-nav {
-  background-color: $white;
+  background-color: variables.$white;
 
   .primary-nav {
     display: flex;
@@ -17,7 +19,7 @@
 
             &:after {
               border-top-width: unset;
-              border-top: solid 1px $secondary-color;
+              border-top: solid 1px variables.$secondary-color;
               top: 70%;
             }
           }
