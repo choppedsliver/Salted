@@ -1,0 +1,11 @@
+@use '../abstracts/variables';
+
+.node--type-media {
+
+  .node__content {
+
+    .field--type-image {
+      width: 100%;
+    }
+  }
+}
